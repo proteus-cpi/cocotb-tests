@@ -8,7 +8,9 @@ def my_first_test(dut):
     """
     dut.log.info("Test FDCE!")
     
-    dut.Q       = 0
+    d           = 0
+
+    dut.D       = d
     dut.C       = 0
     dut.CE      = 1
     dut.CLR     = 0
@@ -20,6 +22,10 @@ def my_first_test(dut):
         yield Timer(9000)
         dut.C = 1
         yield Timer(1000)
+
+        d = 0 if d == 1 else 1
+
+        dut.D = d
 
         yield Timer(10000)
         dut.C = 0

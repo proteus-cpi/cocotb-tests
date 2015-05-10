@@ -1,3 +1,5 @@
+`timescale 1 ns / 1 ps
+
 module fdce_wrapper (
   output Q,
   
@@ -17,8 +19,9 @@ module fdce_wrapper (
    
    initial 
      begin
-	$display("Hello, World");
-	$finish ;
+         $info("Starting in fdce_wrapper");
+         $dumpfile("waveform.vcd");
+         $dumpvars(0,fdce_wrapper);
      end
 
 endmodule

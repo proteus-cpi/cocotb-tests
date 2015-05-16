@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.64 (w)1999-2014 BSI
+[*] Sat May 16 13:47:04 2015
+[*]
+[dumpfile] "/Workspace/Workspace-iverilog/003-FDCE/vlog_tb/tb.vcd"
+[dumpfile_mtime] "Sat May 16 13:46:13 2015"
+[dumpfile_size] 823390
+[savefile] "/Workspace/Workspace-iverilog/003-FDCE/vlog_tb/tb.sav"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-16.484570 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test.
+[treeopen] test.i_fdce_wrapper.
+[sst_width] 223
+[signals_width] 161
+[sst_expanded] 1
+[sst_vpaned_height] 160
+@28
+test.CE
+test.CLR
+test.D
+test.Q
+test.clk
+[pattern_trace] 1
+[pattern_trace] 0

@@ -19,7 +19,6 @@ module fdce_wrapper (
    
    initial 
      begin
-         $info("Starting in fdce_wrapper");
          $dumpfile("waveform.vcd");
          $dumpvars(0,fdce_wrapper);
      end

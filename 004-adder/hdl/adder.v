@@ -5,11 +5,4 @@ module adder (input [3:0] A,
    always @(A or B) begin
       X = A + B;
    end
-
-   // Dump waves
-   initial begin
-      $dumpfile("dump.vcd");
-      $dumpvars(1, adder);
-   end
-
 endmodule // adder

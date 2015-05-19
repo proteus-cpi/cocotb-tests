@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.64 (w)1999-2014 BSI
+[*] Tue May 19 15:38:52 2015
+[*]
+[dumpfile] "/Workspace/Workspace-cocotb/cocotb-tests/002-ram/tb_coco/tb.vcd"
+[dumpfile_mtime] "Tue May 19 15:38:08 2015"
+[dumpfile_size] 8617
+[savefile] "/Workspace/Workspace-cocotb/cocotb-tests/002-ram/tb_coco/tb.sav"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-18.359974 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 223
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 160
+@22
+ram.address_read[4:0]
+ram.address_write[4:0]
+@28
+ram.clk_read
+ram.clk_write
+@22
+ram.data_read[15:0]
+ram.data_write[15:0]
+@28
+ram.write_enable
+[pattern_trace] 1
+[pattern_trace] 0

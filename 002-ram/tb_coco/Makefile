@@ -2,12 +2,12 @@ include ../../iverilog.mak
 
 
 VERILOG_SOURCES =   ${XILINX_GLBL_V} \
-                    $(PWD)/../hdl/fdce_wrapper.v \
+                    $(PWD)/../hdl/ram.v \
                     ./tb.v
 
-TOPLEVEL=fdce_wrapper
+TOPLEVEL=ram
 
-MODULE=test_fdce_wrapper
+MODULE=test_ram
 
 COMPILE_ARGS    := -y ${XILINX_UNISIMS_DIR} -y .
 
